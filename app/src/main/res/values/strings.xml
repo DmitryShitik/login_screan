@@ -1,9 +1,10 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">DE</string>
     <string name="label_login">Login</string>
     <string name="hint_login">example@mail.com</string>
     <string name="label_pass">Password</string>
     <string name="hint_pass">password</string>
     <string name="todo">logo</string>
     <string name="btn_login">Log-in</string>
+    <string name="btn_back">Back</string>
 </resources>

@@ -4,6 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:padding="24dp"
     tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/label_receive_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey_text"
+        android:textSize="@dimen/label_text"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green"
+        android:text="@string/btn_back"
+        android:textSize="@dimen/input_text"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/margin_top_login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="@dimen/marg_bot_25dp"/>
+
+
+
+        
 
 </androidx.constraintlayout.widget.ConstraintLayout>
