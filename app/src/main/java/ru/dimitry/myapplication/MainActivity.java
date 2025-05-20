@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(view->{
             Intent intent = new Intent(this, MainActivity2.class);
             intent.putExtra("login",login.getText().toString());
-            intent.putExtra("password",btnLogin.getText().toString());
+            intent.putExtra("password",password.getText().toString());
             startActivity(intent);
         });
     }
